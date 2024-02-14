@@ -1,0 +1,51 @@
+.codingContainer{
+    background-color: black;
+}
+
+.codingContent {
+    color: wheat;
+    margin: auto;
+    width: 70%;
+}
+
+.codingHeading{
+    color: #bbbbbb;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+.codinPlatform{
+    color: orange ;
+    padding: 10px 0;
+}
+
+.desc {
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+
+.codingbox{
+    box-sizing: border-box;
+    padding: 2rem 0;
+
+}
+
+.link{
+    display: block;
+    margin-top: 15px;
+    color: red;
+}
+
+@media (max-width: 500px){
+    .codingHeading{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 350px){
+    .codingHeading{
+        font-size: 2rem;
+    }
+}
