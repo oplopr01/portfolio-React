@@ -19,6 +19,7 @@ const Navbar = () => {
                 <div className="max-width">
                     <div className="logo"><a href="/">Portfo<span>lio.</span></a></div>
                     <button className="toggle-button" onClick={navSlide}>
+                        MENU
                         <span className="bar"></span>
                         <span className="bar"></span>
                         <span className="bar"></span>
