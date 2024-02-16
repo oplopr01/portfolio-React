@@ -26,7 +26,7 @@ const Greeting = () => {
                     </div>  
                     <div className="profileLinks">
                         <a href="https://www.linkedin.com/in/lakhan-rathore-b88796188" target="_blank" rel="noreferrer">LinkedIn</a>
-                        <a href="https://github.com/oplopr01" target="_blank">GitHub</a>
+                        <a href="https://github.com/oplopr01" target="_blank" rel="noreferrer">GitHub</a>
                     </div>
                         
                 </div>

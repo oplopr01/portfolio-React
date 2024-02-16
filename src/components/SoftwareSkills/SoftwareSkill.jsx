@@ -10,7 +10,7 @@ export default function SoftwareSkill({ skills }) {
 					skills.map((skills, i) => {
 						return (
 							<li key={i} className="software-skill-inline" name={skills.skillName}>
-								<img alt="No image" className="skillimage" src={skills.imgSrc} width="50px" height="50px"  />
+								<img alt="" className="skillimage" src={skills.imgSrc} width="50px" height="50px"  />
 								<p>{skills.skillName}</p>
 							</li>
 						);
