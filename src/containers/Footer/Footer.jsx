@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <footer>
-            <span>Created By <a href="#">Lakhan Rathore</a> | <span className="far fa-copyright"></span> { year } All rights reserved.</span>
+            <span>Created By `Lakhan Rathore` | <span className="far fa-copyright"></span> { year } All rights reserved.</span>
         </footer>
     )
 };

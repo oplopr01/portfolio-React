@@ -18,11 +18,11 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="max-width">
                     <div className="logo"><a href="/">Portfo<span>lio.</span></a></div>
-                    <a className="toggle-button" onClick={navSlide}>
+                    <button className="toggle-button" onClick={navSlide}>
                         <span className="bar"></span>
                         <span className="bar"></span>
                         <span className="bar"></span>
-                    </a>
+                    </button>
                     <div className="navbar-links">
                         <ul>
                             <li>
