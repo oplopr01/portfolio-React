@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
 import { aboutMe } from '../../Portfolio';
-import { techStack, skillsSection } from "../../Portfolio";
+import {  skillsSection } from "../../Portfolio";
 import SoftwareSkill from '../../components/SoftwareSkills/SoftwareSkill';
 import { Fade } from 'react-awesome-reveal';
 import { BrowserView, MobileView } from 'react-device-detect';
