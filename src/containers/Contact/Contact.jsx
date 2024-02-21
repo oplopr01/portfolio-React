@@ -70,7 +70,7 @@ const Contact = () => {
                             <Fade direction="right" duration={1000}>
                                 <div className="text">Message me</div>
                                 <br />
-                                <form action="MAILTO:riteshsaj8958@gmail.com" method="POST" encType="text/plain">
+                                <form action="MAILTO:lakhanrathore.10.100@gmail.com" method="POST" encType="text/plain">
                                     <div className="fields">
                                         <div className="field name">
                                             <input type="text" name='name' id='name' placeholder="Name" required />
@@ -95,7 +95,7 @@ const Contact = () => {
                             <Fade direction="bottom" duration={1000}>
                                 <div className="text">Message me</div>
                                 <br />
-                                <form action="MAILTO:sandeeprwt58@gmail.com" method="POST" encType="text/plain">
+                                <form action="MAILTO:lakhanrathore.10.100@gmail.com" method="POST" encType="text/plain">
                                     <div className="fields">
                                         <div className="field name">
                                             <input type="text" name='name' id='name' placeholder="Name" required />
