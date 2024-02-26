@@ -136,34 +136,6 @@ const projects = {
 	],
 };
 
-const CodingSection ={
-	display:true,
-	heading:"Coding Profile",
-	codingPlatform:[
-		{
-			name:"CodeChef",
-			desc:"Solved 160+ Questions in this particular Platform.Max Contest Rating 3*",
-			link:"https://www.codechef.com/users/ritesh_8958"
-		},
-		{
-			name:"LeetCode",
-			desc:"Solved 280+ Questions in this particular Platform.",
-			link:"https://leetcode.com/ritesh9211/"
-		},
-		
-		{
-			name:"Geeks For Geeks",
-			desc:"Solve 100+ Question on Gfg platform",
-			link:"https://auth.geeksforgeeks.org/user/riteshsaj8958/practice"
-		},
-		{
-			name:"Coding Ninja",
-			desc:"",
-			link:"https://www.codingninjas.com/codestudio/profile/e8c6ac2d-9450-45ea-a6d0-245df25f8819"
-		},
-
-	]
-}
 
 const skillsSection = {
     display: true,
@@ -288,14 +260,7 @@ const trainingsInfo = {
 			role:"JSpider BTM Branch, Banglore",
 			desc: [  " JSpider full stack training institute helped me to upskill myself on Java Programming language, sharpen my hands on Frontend development and to understand complex concepts of JavaScript & ReactJS ","Lerned the web application responsiveness to run apps on phone, tab, PC screen with better UI experience.",
 		"Lerned to Break pages into components in order to make efficient and reusable code.","Learned Testing of backend API's of the web application using postman.","Trained on TechStack  - ReactJs, MongoDB, NodeJs, ExpressJs, Java,SQL, and Github."]
-		},
-		// {
-		// 	companyName:"Sparks Foundation GRIP (Remote)",
-		// 	start:"1/07/2022",
-		// 	end:"1/08/2022",
-		// 	role:"Web Developer Inter(MERN)",
-		// 	desc:["Simulated a Full stack Basic Bank application using MERN stack with functionality like sending and receiving data and displaying the user's balance and hosted web application in render.com"]
-		// }
+		}
 	]
 }
 
