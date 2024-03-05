@@ -24,7 +24,7 @@ const aboutMe = {
 const projects = {
 	display: true,
 	title: 'Projects 🏆  ',
-	subtitle: ' Note -  API(Projects) might take a bit longer time to load as hosted on free web services',
+	subtitle: '',
 	projectCards: [
 		{
 			title: 'Landing Page Using ReactJS + Tailwind CSS',
