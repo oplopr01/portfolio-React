@@ -21,13 +21,18 @@
 
 
 .navbar .logo a {
-  color: #fff;
+  color: rgb(255, 149, 0);
   font-size: 2rem;
   font-weight: 600;
 }
 
-.navbar .logo a span {
-  color: crimson;
+.navbar .logo a #logo-white {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar .logo a #logo-green {
+  color: rgb(12, 168, 12);
   transition: all 0.3s ease;
 }
 

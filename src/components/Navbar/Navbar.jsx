@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
             <nav className="navbar">
                 <div className="max-width">
-                    <div className="logo"><a href="/">Portfo<span>lio.</span></a></div>
+                    <div className="logo"><a href="/">Por<span id='logo-white'>tfo</span><span id='logo-green'>lio.</span></a></div>
                     <button className="toggle-button" onClick={navSlide}>
                         MENU
                         <span className="bar"></span>
