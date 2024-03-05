@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar/Navbar'
 import Greeting from './containers/Greeting/Greeting'
 import About from './containers/About/About'
-// import Project from './containers/Project/Project'
+import Project from './containers/Project/Project'
 import Contact from './containers/Contact/Contact'
 import Footer from './containers/Footer/Footer'
 import Education from './containers/Education/Education'
@@ -17,7 +17,7 @@ function App() {
 			<Greeting/>
 			<Education/>
 			<About/>
-			{/* <Project/> */}
+			<Project/>
 			<Experience/>
 			<Contact/>
 			<Footer/>

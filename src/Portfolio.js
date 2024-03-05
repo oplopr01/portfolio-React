@@ -27,109 +27,70 @@ const projects = {
 	subtitle: ' Note -  API(Projects) might take a bit longer time to load as hosted on free web services',
 	projectCards: [
 		{
-			title: 'Blood Donation Web Application',
-			subtitle: `The web application is made using MERN stack styled with CSS, font-awesome.
-			The web application included features such as users registration and functionality to find compatible donors.
-			The project was built using a combination of front-end and back-end technologies such as HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.
-			Application Hosted on Render.com`,
-			image: require('./images/bld.png'),
+			title: 'Landing Page Using ReactJS + Tailwind CSS',
+			subtitle: `The web application is made using HTML, ReactJS, Tailwind CSS. Application Hosted on Netlify`,
+			image: require('./images/landing page.png'),
 			direction: 'left',
 			footerLink: [
 				{
 					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211',
+					url: 'https://github.com/oplopr01/landing-page-react-tailwind',
 				},
 				{
 					name: 'Live Demo',
-					url: 'https://blddonnerwebapp.onrender.com',
+					url: 'https://landing-page-tailwind-react-lakhan.netlify.app/',
 				},
 			],
 		},
 		{
-			title: 'Personal Task Manager',
-			subtitle: `Web application is made using ReactJs and styled using material-ui
-			Features of the app are create, update, edit and delete goals. Add labels to goal, Start a timer to track the time spent for goal, timer keeps running even when the window is closed.
-			Filter goals by hashtag and/or text, and sort goals by time spent per goal
-			View a Bar graph that displays the amount of time spent per goal.`,
-			image: require('./images/task.png'),
+			title: 'Random Password Generater',
+			subtitle: ` Randome Password Generater: made using HTML, CSS, JavaScript. 
+		 features like setting length of the password, button to copy the appeared passwords `,
+			image: require("./images/pass generator project.png"),
 			direction: 'right',
 			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/Personal-task-manager',
-				},
+				
 				{
 					name: 'Live Demo',
-					url: 'https://imaginative-haupia-00def5.netlify.app/',
+					url: 'https://fantastic-croissant-b0c9d0.netlify.app/',
 				},
 			],
 		},
 		{
-			title: 'Bank Management System',
-			subtitle: ` The project aimed to simulate a basic bank management system that would streamline banking operations like sending and receiving money.
-			The bank management system included features such as viewing all customers bank balance , sending and receiving money with some special checks 
-			The project was developed using modern web development technologies such as React.js,Express.js,MongoDb,Node.js.`,
-			image: require('./images/bank.png'),
-			direction: 'left',
-			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/bankmanagement',
-				},
-				{
-					name: 'Live Demo',
-					url: 'https://bankfrontend.onrender.com',
-				},
-			],
-		},{
-			title: 'React Blog Application',
-			subtitle: `The project aimed to develop a modern blog application using ReactJS, a popular JavaScript library for building user interfaces, to create an interactive and dynamic blogging platform.
-			The blog application included features such as user authentication and authorization, blog post by the registered users with image , creation , editing/deleting of blog , Changing of username passoword etc.
-			The project was developed using ReactJS for front-end development, along with other related technologies such as Redux for state management, Axios for API communication, and MongoDb for user authentication and data storage.
-			The project showcased strong technical skills in ReactJS and related technologies, demonstrating the ability to create interactive web applications with modern UI/UX design. It could be highlighted as a successful project that showcases proficiency in front-end development and user-centric design. `,
-			image: require('./images/blog.png'),
+			title: 'Digital Clock',
+			subtitle: ` Digital Clock : made using HTML, CSS, JavaScript. 
+		 features like showing current time on UI`,
+			image: require("./images/digital clock.png"),
 			direction: 'right',
 			footerLink: [
 				{
-					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/reactblog',
-				},
-				{
 					name: 'Live Demo',
-					url: 'https://blogfrontend-p3q6.onrender.com/',
-				},
-			],
-		},
-		{
-			title: 'PlayStore Data Analysis',
-			subtitle: `Performed a comprehensive analysis of Play Store data to gain
-			insights into user behavior, app trends, and other key metrics
-			Used Kaggle to collect data on Play Store apps. The data was then
-			cleaned and analyzed using various statistical and ML techniques
-			The project utilized Python programming language and various
-			libraries such as Pandas, NumPy, and Matplotlib.
-			The project uncovered trends, like the most popular app categories,
-			impact of app ratings on downloads and many more `,
-			image: require("./images/dataanalysis.png"),
-			direction: 'right',
-			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/playstoreEDA',
+					url: 'https://stately-lollipop-dc563e.netlify.app/',
 				},
 				
 			],
 		},
 		{
-			title: 'Teligram Bot using Node.js',
-			subtitle: `This is a self created teligram bot to send response on some predefined message like \n
-			"hi" will send greeting from bot and "/postwikidata" will send some random wikipedia post. Other predefine response can also be added.`,
-			image: require("./images/teligram_bot.png"),
+			title: 'Payroll System Project- Core Java',
+			subtitle: `Used Java OOPs core concepts. Encapsulation, Inheritance, and Abstraction for this Project`,
+			image: require('./images/payroll project.png'),
+			direction: 'left',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/oplopr01/learning-core-java/tree/fb4c7000ad879e43aad947e2ae4707b293f2a7de/javaProjects/Payroll%20system%20Project',
+				},
+			],
+		},
+		{
+			title: 'Registration Form',
+			subtitle: ` This is a MERN application utilizing the MERN technologies to perform CRUD (create, read, update, delete) operations. built UI using ReactJS, Handling user request via ExpressJS and NodeJS, and storing and reading data from MongoDB server `,
+			image: require("./images/mern project.png"),
 			direction: 'right',
 			footerLink: [
 				{
 					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/teligramchatbot/tree/main',
+					url: 'https://github.com/oplopr01/MERN-project1-employee-registration-form',
 				},
 			],
 		},
@@ -305,6 +266,5 @@ export {
 	techStack,
 	educationInfo,
 	projects,
-	CodingSection,
 	trainingsInfo,
 }
