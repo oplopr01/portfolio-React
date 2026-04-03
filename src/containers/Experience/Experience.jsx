@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Experience.css"
-import { trainingsInfo } from './../../Portfolio';
+import { trainingsInfo, corporateExperience} from './../../Portfolio';
 import ExperienceCard from '../../components/ExperienceCard/ExperienceCard'
 const Experience = () => {
   return (
@@ -8,6 +8,14 @@ const Experience = () => {
     <div className="max-width">
         <div className="experience-section">
           
+            <h1 className="experience-heading">Hands-on Experience</h1>
+            <div className="experience-card-container">
+            {
+                corporateExperience.experience && corporateExperience.experience.map((experience, i) => (
+                        <ExperienceCard experience={experience} key={i} />
+                ))
+            }
+            </div>
             <h1 className="experience-heading">Training & Certifications</h1>
             <div className="experience-card-container">
             {

@@ -259,6 +259,19 @@ const trainingsInfo = {
 		}
 	]
 }
+const corporateExperience = {
+	display:true,
+	experience:[
+		{
+			companyName:"UST Global",
+			start:"1/04/2024",
+			end:"Currently Working",
+			role:"FrontEnd Developer 1 (ReactJS)",
+			desc: [  " Worked on Item Setup and Item Modernization initiatives for Albertsons to improve store item onboarding accuracy.","Designed and developed modular, reusable React components",
+		"Integrated frontend components with REST APIs and GraphQL","Wrote and maintained unit tests using Jest to ensure stability and regression coverage (Best usage of AI agents, copilot and chatGPT).","TCollaborated with backend, QA, and product teams in an Agile environment.", "Participated in sprint ceremonies, client demos, and backlog grooming sessions.", "Worked in a secure VDI claud-based enterprise development environment."]
+		}
+	]
+}
 
 const contactMe = {
 	display: true,
@@ -272,7 +285,7 @@ const contactMe = {
 		},
 		{
 			contactField: 'Current Address',
-			value: 'BTM layout stage 2, Banglore, Karnataka 560105 ',
+			value: 'Trivandrum, Keralam',
 			icon: 'https://img.icons8.com/external-flatart-icons-flat-flatarticons/50/000000/external-address-user-interface-flatart-icons-flat-flatarticons.png',
 		},
 		{
@@ -302,4 +315,5 @@ export {
 	educationInfo,
 	projects,
 	trainingsInfo,
+	corporateExperience
 }
