@@ -34,6 +34,10 @@ const About = () => {
                                         <p>Tools and Platforms</p>
                                         <SoftwareSkill skills={skillsSection.softwareSkills1.toolsAndPlatforms} />
                                     </div>
+                                    <div className='groupSkill'>
+                                        <p>Corporate Methodologies</p>
+                                        <SoftwareSkill skills={skillsSection.softwareSkills1.corporateMethodologies} />
+                                    </div>
                                 </Fade>
                             </BrowserView>
                             <MobileView>

@@ -138,9 +138,22 @@ const skillsSection = {
 				imgSrc: 'https://img.icons8.com/plasticine/50/000000/react.png',
 			},
 			{
+				skillName: 'RTK',
+				imgSrc: 'https://img.icons8.com/color/50/000000/redux.png',
+			},
+			{
 				skillName: 'NodeJs',
 				imgSrc: 'https://img.icons8.com/color/50/000000/nodejs.png',
-			},			{
+			},			
+			{
+				skillName: 'REST APIs',
+				imgSrc: 'https://img.icons8.com/color/50/000000/api.png',
+			},			
+			{
+				skillName: 'GraphQL',
+				imgSrc: 'https://img.icons8.com/color/50/000000/graphql.png',
+			},			
+			{
 				skillName: 'MongoDB',
 				imgSrc: 'https://img.icons8.com/color/50/000000/mongodb.png',
 			},
@@ -167,6 +180,28 @@ const skillsSection = {
 				skillName: 'Linux',
 				imgSrc: "https://img.icons8.com/ios-glyphs/30/null/linux.png"
 			},
+			{
+				skillName: 'Copilot',
+				imgSrc: "https://img.icons8.com/?size=100&id=s6BMuiR0tvY2&format=png&color=000000"
+			},
+			{
+				skillName: 'Open AI',
+				imgSrc: "https://img.icons8.com/?size=100&id=FBO05Dys9QCg&format=png&color=000000"
+			},
+		],
+		corporateMethodologies: [
+			{
+				skillName: 'JIRA',
+				imgSrc: 'https://img.icons8.com/color/50/000000/jira.png',
+			},
+			{
+				skillName: 'Confluence',
+				imgSrc: 'https://img.icons8.com/color/50/000000/confluence.png'
+			},
+			{
+				skillName: 'Agile (Scrum)',
+				imgSrc: 'https://img.icons8.com/?size=100&id=aPFPvI9iSUKn&format=png&color=000000',
+			},			
 		],
 	},
 };
