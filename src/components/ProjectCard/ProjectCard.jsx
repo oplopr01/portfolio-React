@@ -19,21 +19,23 @@ export default function ProjectCard({ cardInfo }) {
 								<img src={cardInfo.image} alt="PWA" />
 								{/* <video src={cardInfo.video}  alt="vid"/> */}
 								<div className="projectFooter">
-							{
-								cardInfo.footer && cardInfo.footer.map((v, i) => {
-									return (
-										<span key={i} className="certificate-tag" onClick={() => openUrlInNewTab(v.url)} >{v.name}</span>
-									);
-								})
-							}
-						</div>
+									{
+										cardInfo.footer && cardInfo.footer.map((v, i) => {
+											return (
+												<span key={i} className="certificate-tag" onClick={() => openUrlInNewTab(v.url)} >{v.name}</span>
+											);
+										})
+									}
+								</div>
 							</div>
 							<div className="projectDetails">
 								<h5 className="projectTitle">{cardInfo.title}</h5>
-								<p className="projectSubtitle">{cardInfo.description}</p>
+								<p className="projectSubtitle"><ul>{cardInfo.description.map((item, i) => (
+									<li key={i}>{item}</li>
+								))}</ul></p>
 							</div>
 						</div>
-						
+
 					</div>
 				</Fade>
 			</BrowserView>

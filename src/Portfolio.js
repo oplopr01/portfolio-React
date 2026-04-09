@@ -26,26 +26,69 @@ const projects = {
 	title: 'Projects 🏆  ',
 	subtitle: '',
 	projectCards: [
+		// {
+		// 	title: 'Landing Page Using ReactJS + Tailwind CSS',
+		// 	subtitle: `The web application is made using HTML, ReactJS, Tailwind CSS. Application Hosted on Netlify`,
+		// 	image: require('./images/landing page.png'),
+		// 	direction: 'left',
+		// 	footerLink: [
+		// 		{
+		// 			name: 'Source Code',
+		// 			url: 'https://github.com/oplopr01/landing-page-react-tailwind',
+		// 		},
+		// 		{
+		// 			name: 'Live Demo',
+		// 			url: 'https://landing-page-tailwind-react-lakhan.netlify.app/',
+		// 		},
+		// 	],
+		// },
 		{
-			title: 'Landing Page Using ReactJS + Tailwind CSS',
-			subtitle: `The web application is made using HTML, ReactJS, Tailwind CSS. Application Hosted on Netlify`,
-			image: require('./images/landing page.png'),
-			direction: 'left',
+			title: ' Resale Item Application | Albertsons',
+			subtitle:[ ` Contributed to an existing production application through bug fixes, minor enhancements, and
+unit test case writing. `, `Worked with enterprise-scale React codebases, following established development and Git
+workflows.`,`Supported feature validation through local and lower environment testing. `],
+			image: require("./images/resale.png"),
+			direction: 'right',
 			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/oplopr01/landing-page-react-tailwind',
-				},
-				{
-					name: 'Live Demo',
-					url: 'https://landing-page-tailwind-react-lakhan.netlify.app/',
-				},
+				
+				// {
+				// 	name: 'Live Demo',
+				// 	url: 'https://fantastic-croissant-b0c9d0.netlify.app/',
+				// },
 			],
 		},
 		{
-			title: 'Random Password Generater',
-			subtitle: ` Randome Password Generater: made using HTML, CSS, JavaScript. 
-		 features like setting length of the password, button to copy the appeared passwords `,
+			title: '  Fresh Item Project',
+			subtitle:[ ` Core frontend developer for a new product built from scratch, actively involved from initial
+development stages to feature delivery `, `Took ownership of delivering assigned user stories on time, ensuring dependent stories could
+progress without blockers.`,`Worked closely with Backend and UI/UX teams to clarify requirements, integrate APIs, and
+translate designs into functional React components. `,`Handled code deployment and testing across multiple environments, ensuring stability before
+promoting builds to higher environments.
+`,`Presented feature demos to QA teams and Product Owners`,`Conducted development smoke testing in lower environments prior to QA validation and deployments`, ` This project significantly improved problem-solving, ownership, and confidence while working
+under real delivery pressure.
+`],
+			image: require("./images/fresh.png"),
+			direction: 'right',
+			footerLink: [
+			],
+		},
+		{
+			title: ' Code Sync-Up Activity',
+			subtitle:[ `Played a key role in synchronizing Resale Item application code into the Fresh Item repository,
+ensured feature stability across modules.`,`Served Responsibilities :- Syncing codebases, resolving conflicts and Verifying features integrity`, `Leading multiple rounds of development smoke testing and consolidating test results`, `Merging stable changes into the main development branch`, `Operated under high-pressure timelines, requiring quick analysis, confident decision-making,
+and close collaboration with multiple team members.`, `This activity significantly strengthened technical confidence, decision-making ability, and
+collaboration skills typically expected at a higher responsibility level `],
+			image: require("./images/mern project.png"),
+			direction: 'right',
+			footerLink: [
+			],
+		},
+		{
+			title: 'Insurance & Reinsurance Policy and Claims Management System. (Personal Project)',
+			subtitle:[`Built a full-stack MERN application for managing insurance policies, claims, and automatic
+reinsurance risk allocation.`, `Developed Node.js and Express REST APIs with JWT authentication and role-based access
+control (RBAC) for secure system access.`,`Created a modular React frontend with feature-based components, multi-step policy
+creation forms, and dashboards connected to backend APIs`],
 			image: require("./images/pass generator project.png"),
 			direction: 'right',
 			footerLink: [
@@ -53,44 +96,6 @@ const projects = {
 				{
 					name: 'Live Demo',
 					url: 'https://fantastic-croissant-b0c9d0.netlify.app/',
-				},
-			],
-		},
-		{
-			title: 'Digital Clock',
-			subtitle: ` Digital Clock : made using HTML, CSS, JavaScript. 
-		 features like showing current time on UI`,
-			image: require("./images/digital clock.png"),
-			direction: 'right',
-			footerLink: [
-				{
-					name: 'Live Demo',
-					url: 'https://stately-lollipop-dc563e.netlify.app/',
-				},
-				
-			],
-		},
-		{
-			title: 'Payroll System Project- Core Java',
-			subtitle: `Used Java OOPs core concepts. Encapsulation, Inheritance, and Abstraction for this Project`,
-			image: require('./images/payroll project.png'),
-			direction: 'left',
-			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/oplopr01/learning-core-java/tree/fb4c7000ad879e43aad947e2ae4707b293f2a7de/javaProjects/Payroll%20system%20Project',
-				},
-			],
-		},
-		{
-			title: 'Registration Form',
-			subtitle: ` This is a MERN application utilizing the MERN technologies to perform CRUD (create, read, update, delete) operations. built UI using ReactJS, Handling user request via ExpressJS and NodeJS, and storing and reading data from MongoDB server `,
-			image: require("./images/mern project.png"),
-			direction: 'right',
-			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/oplopr01/MERN-project1-employee-registration-form',
 				},
 			],
 		},
