@@ -89,7 +89,7 @@ collaboration skills typically expected at a higher responsibility level `],
 reinsurance risk allocation.`, `Developed Node.js and Express REST APIs with JWT authentication and role-based access
 control (RBAC) for secure system access.`,`Created a modular React frontend with feature-based components, multi-step policy
 creation forms, and dashboards connected to backend APIs`],
-			image: require("./images/pass generator project.png"),
+			image: require("./images/insurance.png"),
 			direction: 'right',
 			footerLink: [
 				
