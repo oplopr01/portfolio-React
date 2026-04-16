@@ -84,6 +84,22 @@ collaboration skills typically expected at a higher responsibility level `],
 			],
 		},
 		{
+			title: ' Financial Tracker',
+			subtitle:[ `Developed a full-stack MERN application with JWT authentication, REST APIs, and data visualization using charts`,`Built a user-friendly finance tracker with clear insights into spending`, `Added practical features like categories, notes, and pinned items`, `a production-ready app with real-world usability focus`],
+			image: require("./images/finance tracker.png"),
+			direction: 'right',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/oplopr01/finance-tracker',
+				},
+				{
+					name: 'Live Demo',
+					url: 'https://project-jmxgc.vercel.app/',
+				},
+			],
+		},
+		{
 			title: 'Insurance & Reinsurance Policy and Claims Management System. (Personal Project)',
 			subtitle:[`Built a full-stack MERN application for managing insurance policies, claims, and automatic
 reinsurance risk allocation.`, `Developed Node.js and Express REST APIs with JWT authentication and role-based access
