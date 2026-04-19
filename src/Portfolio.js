@@ -100,6 +100,22 @@ collaboration skills typically expected at a higher responsibility level `],
 			],
 		},
 		{
+			title: 'SOS - App',
+			subtitle:[ `Built a Emergency Response PWA(Progressive Web App) with a one-tap SOS flow, focusing on speed and usability in critical situations`,`Implemented real-time location tracking and interactive map (Leaflet + OpenStreetMap) to display nearby emergency services`, `Developed a Node.js + Express backend with Geoapify API integration to fetch hospitals and police stations reliably`, `Engineered robust error handling and fallback mechanisms to ensure stability even with API failures or offline scenarios`, `Enabled direct navigation and one-tap actions, improving real-world usability during emergencies`,`Designed with a scalable, product-focused architecture, supporting future enhancements like AI assistance, voice triggers, and live tracking.`],
+			image: require("./images/sos-app.png"),
+			direction: 'right',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/oplopr01/SOS-app/',
+				},
+				{
+					name: 'Live Demo',
+					url: 'https://sos-app-alpha.vercel.app/',
+				},
+			],
+		},
+		{
 			title: 'Insurance & Reinsurance Policy and Claims Management System. (Personal Project)',
 			subtitle:[`Built a full-stack MERN application for managing insurance policies, claims, and automatic
 reinsurance risk allocation.`, `Developed Node.js and Express REST APIs with JWT authentication and role-based access
