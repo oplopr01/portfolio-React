@@ -115,22 +115,6 @@ collaboration skills typically expected at a higher responsibility level `],
 				},
 			],
 		},
-		{
-			title: 'Insurance & Reinsurance Policy and Claims Management System. (Personal Project)',
-			subtitle:[`Built a full-stack MERN application for managing insurance policies, claims, and automatic
-reinsurance risk allocation.`, `Developed Node.js and Express REST APIs with JWT authentication and role-based access
-control (RBAC) for secure system access.`,`Created a modular React frontend with feature-based components, multi-step policy
-creation forms, and dashboards connected to backend APIs`],
-			image: require("./images/insurance.png"),
-			direction: 'right',
-			footerLink: [
-				
-				{
-					name: 'Live Demo',
-					url: 'https://fantastic-croissant-b0c9d0.netlify.app/',
-				},
-			],
-		},
 	],
 };
 
