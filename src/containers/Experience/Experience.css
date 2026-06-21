@@ -56,7 +56,7 @@
     }
     .experience-text-subtitle {
       font-size: 18px;
-      text-align: center;
+      text-align: left;
     }
   }
   
@@ -66,7 +66,7 @@
     }
     .experience-heading {
       font-size: 30px;
-      text-align: center;
+      text-align: left;
     }
     .experience-text-subtitle {
       font-size: 16px;
