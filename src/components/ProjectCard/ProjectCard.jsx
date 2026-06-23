@@ -1,12 +1,28 @@
-import React from "react"
+import React, { useState } from "react"
 import './ProjectCard.css'
 import { Fade } from 'react-awesome-reveal'
 
 export default function ProjectCard({ cardInfo }) {
+	const [isExpanded, setIsExpanded] = useState(false);
+
 	function openUrlInNewTab(url) {
 		var win = window.open(url, "_blank");
 		win.focus();
 	}
+
+	const renderDescription = () => {
+		if (Array.isArray(cardInfo.description)) {
+			return (
+				<ul>
+					{cardInfo.description.map((item, i) => (
+						<li key={i}>{item}</li>
+					))}
+				</ul>
+			);
+		} else {
+			return cardInfo.description;
+		}
+	};
 
 	return (
 		<>
@@ -17,17 +33,19 @@ export default function ProjectCard({ cardInfo }) {
 					</div>
 					<div className="projectDetails">
 						<h5 className="projectTitle">{cardInfo.title}</h5>
-						<p className="projectSubtitle">
-							{Array.isArray(cardInfo.description) ? (
-								<ul>
-									{cardInfo.description.map((item, i) => (
-										<li key={i}>{item}</li>
-									))}
-								</ul>
-							) : (
-								cardInfo.description
-							)}
+						<p className={`projectSubtitle ${!isExpanded ? 'truncated' : ''}`}>
+							{renderDescription()}
 						</p>
+						{!isExpanded && (
+							<span className="readMoreLink" onClick={() => setIsExpanded(true)}>
+								more...
+							</span>
+						)}
+						{isExpanded && (
+							<span className="readMoreLink" onClick={() => setIsExpanded(false)}>
+								...less
+							</span>
+						)}
 					</div>
 					<div className="projectFooter">
 						{
